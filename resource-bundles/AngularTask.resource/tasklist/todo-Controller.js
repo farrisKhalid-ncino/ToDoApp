@@ -12,8 +12,6 @@ angular
 			$scope.toggleEdit = false;
 
 			$scope.toggleComplete = function (id) {
-				// console.log(id+' : theres the id');
-				// console.log(JSON.stringify($scope.tasks));
 				for (var i = 0; i < $scope.tasks.length; i++) {
 					if ($scope.tasks[i].id === id && $scope.tasks[i].completeBox===false) {
 						t.update($scope.tasks[i].id,{"completeBox":true});
