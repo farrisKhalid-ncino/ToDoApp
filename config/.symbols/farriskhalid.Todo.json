@@ -1,0 +1,81 @@
+{
+    "properties": [
+        {
+            "modifiers": [
+                "public"
+            ], 
+            "name": "recordId", 
+            "references": [], 
+            "location": {
+                "column": 19, 
+                "line": 2
+            }, 
+            "type": "String", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [
+                "public"
+            ], 
+            "name": "title", 
+            "references": [], 
+            "location": {
+                "column": 19, 
+                "line": 3
+            }, 
+            "type": "String", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [
+                "public"
+            ], 
+            "name": "completed", 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 4
+            }, 
+            "type": "Boolean", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [
+                "public"
+            ], 
+            "name": "editing", 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 5
+            }, 
+            "type": "Boolean", 
+            "annotations": []
+        }
+    ], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": "farriskhalid", 
+    "name": "Todo", 
+    "tableDeclaration": {
+        "modifiers": [
+            "public", 
+            "with sharing"
+        ], 
+        "name": "Todo", 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "type": "Todo", 
+        "annotations": []
+    }, 
+    "parentClass": "", 
+    "key": "01p3600000CxnlsAAB", 
+    "variables": [], 
+    "id": "01p3600000CxnlsAAB", 
+    "methods": []
+}

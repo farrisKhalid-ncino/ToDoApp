@@ -1,0 +1,44 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": "farriskhalid", 
+    "name": "MessageMaker", 
+    "tableDeclaration": {
+        "modifiers": [
+            "public"
+        ], 
+        "name": "MessageMaker", 
+        "references": [], 
+        "location": {
+            "column": 14, 
+            "line": 1
+        }, 
+        "type": "MessageMaker", 
+        "annotations": []
+    }, 
+    "parentClass": "", 
+    "key": "01p3600000DW0ZSAA1", 
+    "variables": [], 
+    "id": "01p3600000DW0ZSAA1", 
+    "methods": [
+        {
+            "modifiers": [
+                "static", 
+                "public"
+            ], 
+            "name": "helloMessage", 
+            "parameters": [], 
+            "references": [], 
+            "location": {
+                "column": 26, 
+                "line": 2
+            }, 
+            "returnType": "String", 
+            "type": null, 
+            "annotations": []
+        }
+    ]
+}

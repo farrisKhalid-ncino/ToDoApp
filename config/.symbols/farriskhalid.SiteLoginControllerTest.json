@@ -1,0 +1,67 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": "farriskhalid", 
+    "name": "SiteLoginControllerTest", 
+    "tableDeclaration": {
+        "modifiers": [
+            "testMethod", 
+            "global", 
+            "with sharing"
+        ], 
+        "name": "SiteLoginControllerTest", 
+        "references": [], 
+        "location": {
+            "column": 35, 
+            "line": 4
+        }, 
+        "type": "SiteLoginControllerTest", 
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ]
+    }, 
+    "parentClass": "", 
+    "key": "01p3600000CxnOQAAZ", 
+    "variables": [
+        {
+            "modifiers": [], 
+            "name": "controller", 
+            "references": [], 
+            "location": {
+                "column": 29, 
+                "line": 7
+            }, 
+            "type": "SiteLoginController", 
+            "annotations": []
+        }
+    ], 
+    "id": "01p3600000CxnOQAAZ", 
+    "methods": [
+        {
+            "modifiers": [
+                "static", 
+                "testMethod", 
+                "global"
+            ], 
+            "name": "testSiteLoginController", 
+            "parameters": [], 
+            "references": [], 
+            "location": {
+                "column": 49, 
+                "line": 5
+            }, 
+            "returnType": "void", 
+            "type": null, 
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ]
+        }
+    ]
+}

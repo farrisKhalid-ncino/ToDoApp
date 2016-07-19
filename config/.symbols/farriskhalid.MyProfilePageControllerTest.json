@@ -1,0 +1,176 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": "farriskhalid", 
+    "name": "MyProfilePageControllerTest", 
+    "tableDeclaration": {
+        "modifiers": [
+            "public", 
+            "testMethod", 
+            "with sharing"
+        ], 
+        "name": "MyProfilePageControllerTest", 
+        "references": [], 
+        "location": {
+            "column": 35, 
+            "line": 5
+        }, 
+        "type": "MyProfilePageControllerTest", 
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ]
+    }, 
+    "parentClass": "", 
+    "key": "01p3600000CxnOYAAZ", 
+    "variables": [
+        {
+            "modifiers": [], 
+            "name": "u", 
+            "references": [], 
+            "location": {
+                "column": 14, 
+                "line": 7
+            }, 
+            "type": "User", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "c", 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 10
+            }, 
+            "type": "Contact", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "existingPortalUsers", 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 19
+            }, 
+            "type": "LIST", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "currentUser", 
+            "references": [], 
+            "location": {
+                "column": 18, 
+                "line": 22
+            }, 
+            "type": "User", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "controller", 
+            "references": [], 
+            "location": {
+                "column": 37, 
+                "line": 24
+            }, 
+            "type": "MyProfilePageController", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "c", 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 32
+            }, 
+            "type": "Contact", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "existingPortalUser", 
+            "references": [], 
+            "location": {
+                "column": 18, 
+                "line": 51
+            }, 
+            "type": "User", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "randFax", 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 52
+            }, 
+            "type": "String", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "controller", 
+            "references": [], 
+            "location": {
+                "column": 41, 
+                "line": 55
+            }, 
+            "type": "MyProfilePageController", 
+            "annotations": []
+        }
+    ], 
+    "id": "01p3600000CxnOYAAZ", 
+    "methods": [
+        {
+            "modifiers": [
+                "private", 
+                "static", 
+                "testMethod"
+            ], 
+            "name": "testSetContactFields", 
+            "parameters": [], 
+            "references": [], 
+            "location": {
+                "column": 42, 
+                "line": 6
+            }, 
+            "returnType": "void", 
+            "type": null, 
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ]
+        }, 
+        {
+            "modifiers": [
+                "private", 
+                "static", 
+                "testMethod"
+            ], 
+            "name": "testSave", 
+            "parameters": [], 
+            "references": [], 
+            "location": {
+                "column": 42, 
+                "line": 17
+            }, 
+            "returnType": "void", 
+            "type": null, 
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ]
+        }
+    ]
+}

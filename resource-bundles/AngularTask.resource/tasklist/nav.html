@@ -1,0 +1,15 @@
+<div class="container" style="font-family: Droid Serif;">
+	<form align="center" ng-submit="addTask()">
+		<input type="text" placeholder="add a new task :D" ng-model="data" ng-required="true"/>
+		<button type="submit" class="btn btn-primary btn-sm">Add Task</button>
+	</form>
+	<br/>
+	<ul class="nav nav-tabs" ng-show="tasks.length">
+		<li><a ui-sref-active="active" ui-sref=".current">Current</a></li>
+		<li><a ui-sref-active="active" data-toggle="tab" ui-sref=".completed">Completed</a></li>
+	</ul>
+	<div class="tab-content">
+		<ui-view id="content-views"></ui-view>
+	</div>
+
+</div>

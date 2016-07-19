@@ -1,0 +1,9 @@
+<apex:page showHeader="false" standardStylesheets="false" docType="html-5.0" language="en">
+    <apex:composition template="{!$Site.Template}">
+        <apex:define name="body">
+            <div>
+                <c:Todo />
+            </div>
+        </apex:define>
+    </apex:composition>
+</apex:page>

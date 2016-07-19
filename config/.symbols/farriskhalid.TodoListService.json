@@ -1,0 +1,392 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": "farriskhalid", 
+    "name": "TodoListService", 
+    "tableDeclaration": {
+        "modifiers": [
+            "public", 
+            "with sharing"
+        ], 
+        "name": "TodoListService", 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "type": "TodoListService", 
+        "annotations": []
+    }, 
+    "parentClass": "", 
+    "key": "01p3600000DV3GsAAL", 
+    "variables": [
+        {
+            "modifiers": [], 
+            "name": "todoList", 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 7
+            }, 
+            "type": "LIST", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "records", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 8
+            }, 
+            "type": "LIST", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "l", 
+            "references": [], 
+            "location": {
+                "column": 26, 
+                "line": 10
+            }, 
+            "type": "farriskhalid__toDo_List__c", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "t", 
+            "references": [], 
+            "location": {
+                "column": 18, 
+                "line": 11
+            }, 
+            "type": "Todo", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "dbRecord", 
+            "references": [], 
+            "location": {
+                "column": 54, 
+                "line": 17
+            }, 
+            "type": "farriskhalid__toDo_List__c", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "t", 
+            "references": [], 
+            "location": {
+                "column": 69, 
+                "line": 17
+            }, 
+            "type": "Todo", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "userId", 
+            "references": [], 
+            "location": {
+                "column": 57, 
+                "line": 23
+            }, 
+            "type": "Id", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "todoList", 
+            "references": [], 
+            "location": {
+                "column": 46, 
+                "line": 38
+            }, 
+            "type": "LIST", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "todoList", 
+            "references": [], 
+            "location": {
+                "column": 49, 
+                "line": 52
+            }, 
+            "type": "LIST", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "insertList", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 53
+            }, 
+            "type": "LIST", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "updateList", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 54
+            }, 
+            "type": "LIST", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "deleteList", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 55
+            }, 
+            "type": "LIST", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "records", 
+            "references": [], 
+            "location": {
+                "column": 31, 
+                "line": 58
+            }, 
+            "type": "Map", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "i", 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 61
+            }, 
+            "type": "Integer", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "t", 
+            "references": [], 
+            "location": {
+                "column": 18, 
+                "line": 62
+            }, 
+            "type": "Todo", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "dbRecord", 
+            "references": [], 
+            "location": {
+                "column": 30, 
+                "line": 64
+            }, 
+            "type": "farriskhalid__toDo_List__c", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "newTodo", 
+            "references": [], 
+            "location": {
+                "column": 30, 
+                "line": 72
+            }, 
+            "type": "farriskhalid__toDo_List__c", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "t", 
+            "references": [], 
+            "location": {
+                "column": 44, 
+                "line": 84
+            }, 
+            "type": "Todo", 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [], 
+            "name": "dbRecord", 
+            "references": [], 
+            "location": {
+                "column": 60, 
+                "line": 84
+            }, 
+            "type": "farriskhalid__toDo_List__c", 
+            "annotations": []
+        }
+    ], 
+    "id": "01p3600000DV3GsAAL", 
+    "methods": [
+        {
+            "modifiers": [
+                "static", 
+                "public"
+            ], 
+            "name": "getTodoList", 
+            "parameters": [], 
+            "references": [], 
+            "location": {
+                "column": 26, 
+                "line": 3
+            }, 
+            "returnType": "LIST", 
+            "type": null, 
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ]
+        }, 
+        {
+            "modifiers": [
+                "private", 
+                "static"
+            ], 
+            "name": "retrieveTodoList", 
+            "parameters": [], 
+            "references": [], 
+            "location": {
+                "column": 27, 
+                "line": 6
+            }, 
+            "returnType": "LIST", 
+            "type": null, 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [
+                "private", 
+                "static"
+            ], 
+            "name": "mapFromDbRecord", 
+            "parameters": [
+                {
+                    "type": "farriskhalid__toDo_List__c", 
+                    "name": "dbRecord"
+                }, 
+                {
+                    "type": "Todo", 
+                    "name": "t"
+                }
+            ], 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 17
+            }, 
+            "returnType": "void", 
+            "type": null, 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [
+                "private", 
+                "static"
+            ], 
+            "name": "retrieveListFromDb", 
+            "parameters": [
+                {
+                    "type": "Id", 
+                    "name": "userId"
+                }
+            ], 
+            "references": [], 
+            "location": {
+                "column": 35, 
+                "line": 23
+            }, 
+            "returnType": "LIST", 
+            "type": null, 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [
+                "static", 
+                "public"
+            ], 
+            "name": "saveTodoList", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "todoList"
+                }
+            ], 
+            "references": [], 
+            "location": {
+                "column": 26, 
+                "line": 38
+            }, 
+            "returnType": "LIST", 
+            "type": null, 
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ]
+        }, 
+        {
+            "modifiers": [
+                "private", 
+                "static"
+            ], 
+            "name": "saveTodoListToDb", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "todoList"
+                }
+            ], 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 52
+            }, 
+            "returnType": "void", 
+            "type": null, 
+            "annotations": []
+        }, 
+        {
+            "modifiers": [
+                "private", 
+                "static"
+            ], 
+            "name": "mapToDbRecord", 
+            "parameters": [
+                {
+                    "type": "Todo", 
+                    "name": "t"
+                }, 
+                {
+                    "type": "farriskhalid__toDo_List__c", 
+                    "name": "dbRecord"
+                }
+            ], 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 84
+            }, 
+            "returnType": "void", 
+            "type": null, 
+            "annotations": []
+        }
+    ]
+}
