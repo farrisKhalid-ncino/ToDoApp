@@ -1,0 +1,15 @@
+<div class="slds-media">
+	<div class="slds-media__body slds-align--absolute-center">
+		<div class="slds-media__body">
+			<div class="slds-media" ng-repeat="t in completedTasks">
+				<div class="slds-media__body">
+					<span title="completedtasks" class="slds-truncate">
+						{{t.dbTaskField}}<br/>
+					</span>
+				</div>
+			</div>
+				<br/><button class="slds-button slds-button--destructive" ng-click="purgeDelete()" ng-show="completedTasks.length">Delete Completed Tasks</button>
+				<span title="nothingToDelete" class="slds-truncate" ng-hide="completedTasks.length">No completed tasks exist.</span>
+		</div>
+	</div>
+</div>

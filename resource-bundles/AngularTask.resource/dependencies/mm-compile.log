@@ -1,0 +1,21 @@
+[MAVENSMATE CAUGHT ERROR]
+Traceback (most recent call last):
+  File "/Users/josephferraro/Development/Github/mm/build/mm/out00-PYZ.pyz/mm.commands.metadata", line 394, in execute
+  File "/Users/josephferraro/Development/Github/mm/build/mm/out00-PYZ.pyz/shutil", line 128, in copy2
+  File "/Users/josephferraro/Development/Github/mm/build/mm/out00-PYZ.pyz/shutil", line 82, in copyfile
+IOError: [Errno 2] No such file or directory: u'/Users/farriskhalid/Documents/ToDoApp/src/staticresources/dependencies.resource-meta.xml'
+Starting new HTTPS connection (1): ilm-dev-ed.my.salesforce.com
+Starting new HTTPS connection (1): ilm-dev-ed.my.salesforce.com
+Starting new HTTPS connection (1): ilm-dev-ed.my.salesforce.com
+[MAVENSMATE CAUGHT ERROR]
+Traceback (most recent call last):
+  File "/Users/josephferraro/Development/Github/mm/build/mm/out00-PYZ.pyz/mm.commands.metadata", line 394, in execute
+  File "/Users/josephferraro/Development/Github/mm/build/mm/out00-PYZ.pyz/shutil", line 128, in copy2
+  File "/Users/josephferraro/Development/Github/mm/build/mm/out00-PYZ.pyz/shutil", line 82, in copyfile
+IOError: [Errno 2] No such file or directory: u'/Users/farriskhalid/Documents/ToDoApp/src/staticresources/dependencies.resource-meta.xml'
+[MAVENSMATE CAUGHT ERROR]
+Traceback (most recent call last):
+  File "/Users/josephferraro/Development/Github/mm/build/mm/out00-PYZ.pyz/mm.commands.metadata", line 394, in execute
+  File "/Users/josephferraro/Development/Github/mm/build/mm/out00-PYZ.pyz/shutil", line 128, in copy2
+  File "/Users/josephferraro/Development/Github/mm/build/mm/out00-PYZ.pyz/shutil", line 82, in copyfile
+IOError: [Errno 2] No such file or directory: u'/Users/farriskhalid/Documents/ToDoApp/src/staticresources/dependencies.resource-meta.xml'
